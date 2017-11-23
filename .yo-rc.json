@@ -32,6 +32,11 @@
     "jhipsterVersion": "4.10.2",
     "packageFolder": "io/github/jhipster/application",
     "jwtSecretKey": "f28eb1d0ce5b1ac30d68f89ff65c2640b0aad891",
-    "jhiPrefix": "jhi"
+    "jhiPrefix": "jhi",
+    "appsFolders": [
+      "jhsmarttle"
+    ],
+    "directoryPath": "../",
+    "monitoring": "no"
   }
 }

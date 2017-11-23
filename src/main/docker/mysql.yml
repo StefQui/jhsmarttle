@@ -5,8 +5,9 @@ services:
         # volumes:
         #     - ~/volumes/jhipster/jhsmarttle/mysql/:/var/lib/mysql/
         environment:
-            - MYSQL_USER=root
-            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+            - MYSQL_ROOT_USER=jhuser
+            - MYSQL_ROOT_PASSWORD=jhuser
+            - MYSQL_ALLOW_EMPTY_PASSWORD=no
             - MYSQL_DATABASE=jhsmarttle
         ports:
             - 3306:3306

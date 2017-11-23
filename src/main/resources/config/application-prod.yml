@@ -22,7 +22,7 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://db:3306/jhsmarttle?useUnicode=true&characterEncoding=utf8&useSSL=false
-        username: jhuser
+        username: root
         password: jhuser
         hikari:
             data-source-properties:
